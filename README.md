@@ -15,7 +15,7 @@ Just search it or use an url.
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
 ![Mac](https://img.shields.io/badge/mac%20os-000000?style=for-the-badge&logo=apple&logoColor=white)
 ![Windows](https://img.shields.io/badge/Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white)
-
+![Android](https://img.shields.io/badge/Android-000000?style=for-the-badge&logo=android&logoColor=black)
 # Copyright
 © rakshitdogra
 
