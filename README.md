@@ -1,4 +1,4 @@
-# SongDownloader
+# Get That Song
 Download your favorite song in seconds.
 
 # Dependencies
