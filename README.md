@@ -1,3 +1,16 @@
+<p align="center">
+  <a href="https://github.com/rakshitdogra/GetThatSong"><img src="icons/256icon.png" alt="Logo"></img></a>
+  <br/>
+  <sub>Logo by <a href="https://www.instagram.com/rakshit.designs/">@rakshit.designs</a></sub>
+  </br>
+  <sub>MADE WITH ❤️ BY Rakshit Dogra.</sub>
+</p>
+
+<h1 align="center">Get That Song</h1>
+<p align="center">
+  <b>Download:</b>
+  <a href="">Windows (.exe)</a>
+
 # Get That Song
 [![GNU](https://img.shields.io/github/license/rakshitdogra/GetThatSong)](https://github.com/rakshitdogra/GetThatSong/blob/main/LICENSE)
 
@@ -11,7 +24,7 @@ Just search it or use an url.
    python -m pip install --upgrade pytube
    python -m pip install --upgrade youtube_dl
 ```
-# Supported devices
+# Script Supported devices
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
 ![Mac](https://img.shields.io/badge/mac%20os-000000?style=for-the-badge&logo=apple&logoColor=white)
 ![Windows](https://img.shields.io/badge/Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white)
@@ -19,4 +32,4 @@ Just search it or use an url.
 # Copyright
 © rakshitdogra
 
-MADE WITH ❤️ BY rakshitdogra.
+MADE WITH ❤️ BY Rakshit Dogra.
