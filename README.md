@@ -1,5 +1,5 @@
 # Get That Song
-[![MIT](https://img.shields.io/github/license/rakshitdogra/yt-video-downloader)](https://github.com/rakshitdogra/yt-video-downloader/blob/main/LICENSE)
+[![GNU](https://img.shields.io/github/license/rakshitdogra/GetThatSong)](https://github.com/rakshitdogra/GetThatSong/blob/main/LICENSE)
 
 Download your favorite song in seconds.
 Just search it or use an url.
