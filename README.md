@@ -1,5 +1,6 @@
 # Get That Song
 Download your favorite song in seconds.
+Just search it or use an url.
 
 # Dependencies
 ```bash
