@@ -1,14 +1,14 @@
 <h1 align="center">Get The Song</h1>
 <p align="center">
-  <a href="https://github.com/rakshitdogra/GetThatSong"><img src="icons/256icon.png" alt="Logo"></img></a>
+  <a href="https://github.com/rakshitdogra/GetTheSong"><img src="icons/256icon.png" alt="Logo"></img></a>
   <br/>
   <sub>Logo by <a href="https://www.instagram.com/rakshit.designs/">@rakshit.designs</a></sub>
   </br>
   <sub>MADE WITH ❤️ BY Rakshit Dogra.</sub>
 </p>
 
-# Get That Song
-[![GNU](https://img.shields.io/github/license/rakshitdogra/GetThatSong)](https://github.com/rakshitdogra/GetThatSong/blob/main/LICENSE)
+# Get The Song
+[![GNU](https://img.shields.io/github/license/rakshitdogra/GetTheSong)](https://github.com/rakshitdogra/GetTheSong/blob/main/LICENSE)
 
 Download your favorite song in seconds.
 Just search it or use an url.
