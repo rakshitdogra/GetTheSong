@@ -7,9 +7,7 @@
 </p>
 
 <h1 align="center">Get That Song</h1>
-<p align="center">
-  <b>Download:</b>
-  <a href="">Windows (.exe)</a>
+
 
 # Get That Song
 [![GNU](https://img.shields.io/github/license/rakshitdogra/GetThatSong)](https://github.com/rakshitdogra/GetThatSong/blob/main/LICENSE)
