@@ -22,40 +22,65 @@ import urllib.request
 import re
 from pytube import YouTube
 import os
-print("Get That Song.script \n")  
+import time
+import sys
+import pyfiglet
+
+print(pyfiglet.figlet_format("Get The Song"))
+print("\n")  
+
 while True:  
     print("Search")
     print("1. Using Search")
     print("2. Using Url")  
-    choice = int(input("Enter the Choice: "))
+    choice = int(input("Enter the Choice (1 or 2): "))
+
     if choice == 1:
-       searchquery=input("Search without space: \n>> ")
+       withspace=input("Search >> ")
+       searchquery = withspace.replace(" ", "+")
        search_keyword=searchquery
        html = urllib.request.urlopen("https://www.youtube.com/results?search_query=" + search_keyword)
        video_ids = re.findall(r"watch\?v=(\S{11})", html.read().decode())
        genlink =("https://www.youtube.com/watch?v=" + video_ids[0])
        yt=genlink
-       print("Link:",genlink)
+       print("\nLink:",genlink)
        yt = YouTube(genlink)
        video = yt.streams.filter(only_audio=True).first()
-       print("Enter the destination (leave blank for current directory)")
+       print("\nEnter the destination (leave blank for current directory)")
        destination = str(input(">> ")) or '.'
        out_file = video.download(output_path=destination)
        base, ext = os.path.splitext(out_file)
        new_file = base + '.mp3'
        os.rename(out_file, new_file)
+       print("\nDownloading:")
+       animation = ["■□□□□□□□□□","■■□□□□□□□□", "■■■□□□□□□□", "■■■■□□□□□□", "■■■■■□□□□□", "■■■■■■□□□□", "■■■■■■■□□□", "■■■■■■■■□□", "■■■■■■■■■□", "■■■■■■■■■■"]
+       for i in range(len(animation)):
+        time.sleep(0.05)
+        sys.stdout.write("\r" + animation[i % len(animation)])
+        sys.stdout.flush()
+       print("\n")
        print(yt.title + " has been successfully downloaded.")
+
+
     if choice == 2:
-       urllink=input("Enter the url link of the video: \n>> ")
+       urllink=input("\nEnter the url link of the video: \n>> ")
        yt = YouTube(urllink)
        video = yt.streams.filter(only_audio=True).first()
-       print("Enter the destination (leave blank for current directory)")
+       print("\nEnter the destination (leave blank for current directory)")
        destination = str(input(">> ")) or '.'
        out_file = video.download(output_path=destination)
        base, ext = os.path.splitext(out_file)
        new_file = base + '.mp3'
        os.rename(out_file, new_file)
-       print("\n"+ yt.title + " has been successfully downloaded.")
-    next_request = input("\n Do you want to use this script again? (yes/no): \n ")
+       print("Downloading:")
+       animation = ["■□□□□□□□□□","■■□□□□□□□□", "■■■□□□□□□□", "■■■■□□□□□□", "■■■■■□□□□□", "■■■■■■□□□□", "■■■■■■■□□□", "■■■■■■■■□□", "■■■■■■■■■□", "■■■■■■■■■■"]
+       for i in range(len(animation)):
+        time.sleep(0.05)
+        sys.stdout.write("\r" + animation[i % len(animation)])
+        sys.stdout.flush()
+       print("\n")
+       print(yt.title + " has been successfully downloaded.")
+
+    next_request = input("\nDo you want to use this script again? (yes/no): \n>> ")
     if next_request == "no":
         break
