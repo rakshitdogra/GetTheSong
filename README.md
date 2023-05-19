@@ -1,7 +1,5 @@
 <h1 align="center">Get The Song</h1>
 <p align="center">
-  <sub>Logo by <a href="https://www.instagram.com/rakshit.designs/">@rakshit.designs</a></sub>
-  </br>
   <sub>MADE WITH ❤️ BY Rakshit Dogra.</sub>
 </p>
 
