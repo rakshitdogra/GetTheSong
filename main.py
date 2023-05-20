@@ -7,7 +7,7 @@ import os
 import pyfiglet
 
 print(pyfiglet.figlet_format("Get The Song"))
-print("Copyright (c) © 2022 rakshitdogra")
+print("Copyright (c) © 2023 rakshitdogra")
 print("\n")  
 
 class color:
